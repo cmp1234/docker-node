@@ -1,4 +1,4 @@
-FROM cmp1234/alpine-base:3.6
+FROM cmp1234/alpine-bash
 
 ENV NPM_CONFIG_LOGLEVEL info
 ENV NODE_VERSION 6.10.2
@@ -14,6 +14,7 @@ RUN addgroup -g 1000 node \
         gcc \
         gnupg \
         libgcc \
+        bash \
         linux-headers \
         make \
         python \
