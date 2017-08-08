@@ -14,7 +14,7 @@ RUN addgroup -g 1000 node \
         gcc \
         gnupg \
         libgcc \
-        bash \
+        #bash \
         linux-headers \
         make \
         python \
